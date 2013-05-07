@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ERR_FILE	ini_parse.c	/^	ERR_FILE,$/;"	e	enum:_StatusRet	file:
+ERR_INI	ini_parse.c	/^	ERR_INI,$/;"	e	enum:_StatusRet	file:
+ERR_MEM	ini_parse.c	/^	ERR_MEM,$/;"	e	enum:_StatusRet	file:
+ERR_NON	ini_parse.c	/^	ERR_NON = 0,$/;"	e	enum:_StatusRet	file:
+ERR_NON_EXIST	ini_parse.c	/^	ERR_NON_EXIST,$/;"	e	enum:_StatusRet	file:
+MAX_LINE	ini_parse.c	5;"	d	file:
+STATE	ini_parse.c	/^enum STATE{$/;"	g	file:
+STATE_COMMEMT	ini_parse.c	/^	STATE_COMMEMT,$/;"	e	enum:STATE	file:
+STATE_IDLE	ini_parse.c	/^	STATE_IDLE,$/;"	e	enum:STATE	file:
+STATE_KEY	ini_parse.c	/^	STATE_KEY,$/;"	e	enum:STATE	file:
+STATE_SECT	ini_parse.c	/^	STATE_SECT,$/;"	e	enum:STATE	file:
+STATE_VALUE	ini_parse.c	/^	STATE_VALUE,$/;"	e	enum:STATE	file:
+STR_LEN	main.c	4;"	d	file:
+StatusRet	ini_parse.c	/^}StatusRet;$/;"	t	typeref:enum:_StatusRet	file:
+_INI_PARSE_H	ini_parse.h	2;"	d
+_StatusRet	ini_parse.c	/^typedef enum _StatusRet{$/;"	g	file:
+find_string	ini_parse.c	/^static StatusRet find_string(char *buf, const char* sect, const char *key, const char *file)$/;"	f	file:
+ini_get_int	ini_parse.c	/^int ini_get_int(const char* sect, const char *key, int defa, const char *file)$/;"	f
+ini_get_string	ini_parse.c	/^int ini_get_string(const char* sect, const char *key, char *strdefa, char * buf, int size, const char *file)$/;"	f
+main	main.c	/^void main()$/;"	f
+str_remove_bound_space	ini_parse.c	/^static void str_remove_bound_space(char *str)$/;"	f	file:

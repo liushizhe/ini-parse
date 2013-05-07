@@ -1,0 +1,17 @@
+# Ignoring unnecessary binary files
+
+bin/*
+obj/*
+
+# And emacs' backup files
+
+.#*
+
+# Also, the high score file
+
+#yetris.hscore
+
+# local documentation
+
+src/tags
+
